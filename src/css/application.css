@@ -1,0 +1,88 @@
+.aplication {
+  margin-bottom: 80px;
+}
+
+.title {
+  margin-bottom: 14px;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+.info,
+.input-label {
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: rgba(18, 20, 23, 0.8);
+}
+
+.aplication-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  height: 50px;
+  margin-bottom: 18px;
+}
+
+.form-input,
+.form-comment {
+  border: 1px solid rgba(18, 20, 23, 0.1);
+  border-radius: 12px;
+  outline: none;
+}
+
+.form-input::placeholder,
+.form-comment::placeholder {
+  padding-left: 18px;
+  color: var(--black);
+}
+
+.form-input:focus-within,
+.form-comment:focus-within {
+  padding-left: 18px;
+  border: 1px solid var(--green);
+  outline: none;
+}
+
+.form-input:focus::placeholder,
+.form-comment:focus::placeholder {
+  color: transparent;
+}
+
+.form-comment {
+  margin-bottom: 20px;
+}
+
+.form-teachers-title {
+  margin-bottom: 14px;
+}
+
+.form-teachers-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin-bottom: 40px;
+}
+
+.form-btn {
+  padding: 14px 0;
+  margin-bottom: 16px;
+  border: none;
+  border-radius: 12px;
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.privacy-policy-text {
+  font-size: 12px;
+  line-height: 1.33;
+  color: rgba(18, 20, 23, 0.5);
+}
+
+.pravacy-policy-link {
+  text-decoration: underline;
+}

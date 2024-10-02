@@ -1,0 +1,33 @@
+<section class="aplication">
+  <div class="container">
+    <h2 class="title">Leave an <span>Aplication</span></h2>
+    <p class="info">Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.</p>
+    <form class="aplication-form">
+      <input class="form-input" type="text" name="user-name" id="user-name" placeholder="Name">
+      <input class="form-input" type="email" name="user-email" id="user-email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email">
+      <input class="form-input" type="tel" name="user-phone" id="user-phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Phone">
+      <textarea class="form-comment" name="comment" id="user-comment" placeholder="Comment" rows="5"></textarea>
+      <h3 class="form-teachers-title">Choose a teacher</h3>
+      <ul class="form-teachers-list">
+        <li class="form-teachers-item">
+          <input type="radio" name="teacher-maria" id="teacher-maria">
+          <label class="input-label" for="teacher-maria">Maria</label>
+        </li>
+        <li class="form-teachers-item">
+          <input type="radio" name="teacher-artem" id="teacher-artem">
+          <label class="input-label" for="teacher-artem">Artem</label>
+        </li>
+        <li class="form-teachers-item">
+          <input type="radio" name="teacher-ilona" id="teacher-ilona">
+          <label class="input-label" for="teacher-ilona">Ilona</label>
+        </li>
+        <li class="form-teachers-item">
+          <input type="radio" name="teacher-volodymyr" id="teacher-volodymyr">
+          <label class="input-label" for="teacher-volodymyr">Volodymyr</label>
+        </li>
+      </ul>
+      <button class="form-btn" type="submit">Send</button>
+      <p class="privacy-policy-text">By clicking on “Send” button, you agree to our <a class="pravacy-policy-link" href="#">Privacy Policy</a>, and allow Promodo to use this information for marketing purposes.</p>
+    </form>
+  </div>
+</section>
