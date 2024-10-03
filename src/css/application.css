@@ -189,7 +189,8 @@ textarea.leave-appln-form-input {
     color: var(--white);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 }
-
+.leave-appl-submit-btn:hover,
+.leave-appl-submit-btn:focus,
 .leave-appl-submit-btn:active{
     background-color: var(--green-active); 
 }
