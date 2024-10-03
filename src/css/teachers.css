@@ -1,0 +1,123 @@
+/*  "Our teachers" */
+.our-teachers {
+    padding: 50px 0;
+    text-align: center;
+    background-color: var(--white);
+    width: 336px;
+    height: 36px;
+    gap: 0px;
+}
+
+.our-teachers h2 {
+    text-align: center;
+    font-size: 38px;
+    color: var(--black-transparent);
+    width: 334px;
+    height: 96px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+/* .teachers-intro {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 40px;
+    font-size: 18px;
+    color: var(--black-transparent);
+    
+} */
+.section-title {    
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+.teachers-list {
+    text-align: center;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.teachers-items {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.teachers-items:hover {
+    transform: translateY(-10px);
+}
+
+.teachers-items img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.team-desc .title {      
+    margin-bottom: 10px;
+    font-family: Manrope;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}
+.teachers-intro,
+.team-desc .description {
+    color: var(--black-transparent);    
+    max-width: 335px;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.teachers-intro {
+    margin-bottom: 40px;
+    max-width: 336px; 
+    margin: 16px auto 0; 
+}
+
+.teachers-list .teachers-items {
+    margin-top: 0;
+}
+
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .section-title {    
+        line-height: 40px;
+        letter-spacing: -0.02em;
+    }
+    .teachers-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    }
+
+    .team-desc .description {
+    max-width: 250px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .teachers-list {
+    grid-template-columns: repeat(4, 1fr);
+    }
+
+    .team-desc .description {
+    max-width: 220px;
+    }
+}
