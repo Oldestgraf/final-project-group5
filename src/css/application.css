@@ -19,6 +19,8 @@
 
 .leave-appl-description {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 1.5;
     margin-top: 14px;
     color: rgba(12, 14, 17, 0.8);
@@ -214,6 +216,7 @@ textarea.leave-appln-form-input {
         font-size: 18px;
         line-height: 30px;
         margin-top: 16px;
+        max-width: 586px;
     }
 
     .leave-application-section {
@@ -294,7 +297,5 @@ textarea.leave-appln-form-input {
 
     .leave-appl-description {
         max-width: 709px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
