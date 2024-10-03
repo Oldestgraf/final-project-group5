@@ -93,7 +93,7 @@
         line-height: 40px;        
     }
     .teachers-list {
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     max-width: 576px;
     margin: 0 auto;
@@ -104,11 +104,12 @@
         margin-bottom: 64px;
         max-width: 709px; 
         margin: 29.5px auto 0;         
-        line-height: 30px;  
+        line-height: 30px; 
     }
 
     .team-desc .description {
     max-width: 250px;
+    font-size: 16px;
     }
     .container {
         padding-left: 64px;
@@ -120,23 +121,31 @@
 @media (min-width: 1280px) {
     .teachers-list {
         grid-template-columns: repeat(4, 1fr);
+        max-width: 1024px;
+        display: grid; 
+        gap: 32px; 
     
     }
 
     .teachers-items {
     flex: 1; 
-    margin: 0 16px; 
-    }
-
-    .teachers-items img {
-    width: 264px; 
-    height: 264px;
-    border-radius: 50%; 
-    object-fit: cover; 
+    margin: 0px; 
+    padding: 0px;
     }
 
     .team-desc .description {
-    max-width: 250px; 
+        max-width: 232px;  
+        margin-bottom: 8px; 
+    }
+    .section-title {
+    margin-bottom: 61.5px; 
+    }
+
+    .teachers-intro {                      
+    font-size: 18px;        
+    margin: 0 auto;         
+    line-height: 30px;
+    margin-bottom: 64px;  
     }
 }
 
