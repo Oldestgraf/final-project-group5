@@ -24,14 +24,14 @@
     color: rgba(12, 14, 17, 0.8);
 }
 
-.leave-appliation-section {
+.leave-application-section {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-top: 20px;
 }
 
-.leave-appliation-info {
+.leave-application-info {
     background-color: var(--green);
     border-radius: 30px;
     overflow: hidden;
@@ -41,12 +41,12 @@
     height: 578px;
 }
 
-.leave-appliation-info picture {
+.leave-application-info picture {
     display: block;
     margin-bottom: 20px;
 }
 
-.leave-appliation-info-details {
+.leave-application-info-details {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -54,7 +54,7 @@
     padding: 0 20px;
 }
 
-.leave-appliation-info-number {
+.leave-application-info-number {
     color: var(--white);
     font-weight: 700;
     font-size: 40px;
@@ -63,7 +63,7 @@
     text-align: center;
 }
 
-.leave-appliation-info-text {
+.leave-application-info-text {
     color: var(--white);
     opacity: 0.7;
     font-size: 16px;
@@ -205,7 +205,7 @@ textarea.leave-appln-form-input {
         margin-top: 16px;
     }
 
-    .leave-appliation-section {
+    .leave-application-section {
         margin: auto;
         margin-top: 64px;
     }
@@ -269,7 +269,7 @@ textarea.leave-appln-form-input {
 }
 
 @media (min-width: 1280px) {
-    .leave-appliation-section {
+    .leave-application-section {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -277,7 +277,7 @@ textarea.leave-appln-form-input {
         gap: 32px;
     }
 
-    .leave-appliation-info {
+    .leave-application-info {
         display: block;
     }
 
