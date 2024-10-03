@@ -84,8 +84,8 @@
 
 .our-lessons-list-item-button:hover,
 .our-lessons-list-item-button:focus {
-  border: 1px solid var(--dark-green-hover);
-  background: var(--dark-green-hover);
+  border: 1px solid var(--green-active);
+  background: var(--green-active);
 }
 
 .our-lessons-list-item:nth-child(2n) .our-lessons-list-item-button {
