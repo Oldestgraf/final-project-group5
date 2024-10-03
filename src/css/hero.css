@@ -175,6 +175,7 @@
   width: 100%;
   border-radius: 12px;
   border: none;
+  transition: background-color var(--anim-main);
 }
 
 .application-btn:hover,
@@ -205,10 +206,12 @@
   height: 38px;
   background-color: var(--white);
   border-radius: 50%;
+  transition: background-color var(--anim-main);
 }
 .icon-scroll {
   display: block;
   fill: var(--green);
+  transition: fill var(--anim-main);
 }
 
 @media only screen and (min-width: 768px) {
