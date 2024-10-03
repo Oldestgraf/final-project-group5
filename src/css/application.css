@@ -1,0 +1,309 @@
+.highlight {
+    position: relative;
+    display: inline-block;
+    z-index: 999;
+}
+
+.highlight::after {
+    content: '';
+    background-color: var(--green-accent);
+    border-radius: 8px;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 12px;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.leave-appl-description {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgba(12, 14, 17, 0.8);
+}
+
+.leave-application-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.leave-application-info {
+    background-color: var(--green);
+    border-radius: 30px;
+    overflow: hidden;
+    text-align: center;
+    display: none;
+    width: 492px;
+    height: 578px;
+}
+
+.leave-application-info picture {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.leave-application-info-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+.leave-application-info-number {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: -0.02em;
+    line-height: 48px;
+    text-align: center;
+}
+
+.leave-application-info-text {
+    color: var(--white);
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.leave-appln-form-inputs {
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.leave-appln-form-input {
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 0 16px 18px;
+    border: 1px solid rgba(12, 14, 17, 0.1);
+    border-radius: 12px;
+    font-size: 14px;
+    line-height: 18px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.leave-appln-form-input:focus {
+  border-color: var(--green);
+}
+
+.leave-appln-form-input::placeholder,
+.leave-appln-form-input::placeholder {
+    color: var(--black);
+}
+
+textarea.leave-appln-form-input {
+    resize: none;
+    height: 94px;
+}
+
+.teacher-options {
+    margin-top: 14px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.select-teacher-lbl {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.teacher-label {
+    color: var(--black);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+}
+
+.teacher-input-radio {
+    margin-right: 8px;
+    display: none;
+}
+
+.teacher-label {
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.teacher-label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: var(--white);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+            border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 2px solid rgba(12, 14, 17, 0.2);
+}
+
+ .teacher-input-radio:checked + .teacher-label:before {
+    border-color: var(--green);
+ }
+
+.teacher-input-radio:checked + .teacher-label:after {
+    content: '';
+    position: absolute;
+    left: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: var(--green);
+    border-radius: 50%;
+}
+
+.leave-appl-submit-btn {
+    width: 100%;
+    height: 52px;
+    background-color: var(--green);
+    padding: 14px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+}
+.leave-appl-submit-btn:hover,
+.leave-appl-submit-btn:focus,
+.leave-appl-submit-btn:active{
+    background-color: var(--green-active); 
+}
+
+.privacy-text {
+    margin-top: 16px;
+    color: rgba(12, 14, 17, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.privacy-text a {
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .highlight::after {
+        height: 20px;
+    }
+
+    .teacher-options {
+        flex-direction: row;
+    }
+
+    .h2 {
+        font-size: 40px;
+    }
+
+    .leave-appl-description {
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 16px;
+        max-width: 586px;
+    }
+
+    .leave-application-section {
+        margin-top: 64px;
+        align-items: center;
+    }
+
+    .leave-appln-form {
+        max-width: 500px;
+    }
+
+    .leave-appln-form-input {
+        font-size: 16px;
+        line-height: 24px;
+        height: 56px;
+    }
+
+    textarea.leave-appln-form-input {
+        height: 104px;
+    }
+
+    .teacher-options {
+        justify-content: unset;
+        gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 32px;
+    }
+
+    .teacher-label {
+        font-size: 18px;
+    }
+
+    .teacher-label:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    .teacher-input-radio:checked+.teacher-label:after {
+        left: 5px;
+        width: 10px;
+        height: 10px;
+    }
+
+    .leave-appl-submit-btn {
+        height: 60px;
+        padding: 16x;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .privacy-text {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .leave-appln-form-inputs {
+        margin-bottom: 32px;
+    }
+
+    .select-teacher-lbl {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .leave-application-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .leave-application-info {
+        display: block;
+    }
+
+    .leave-appl-description {
+        max-width: 709px;
+    }
+}
