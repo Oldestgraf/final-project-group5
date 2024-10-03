@@ -206,8 +206,8 @@ textarea.leave-appln-form-input {
     }
 
     .leave-application-section {
-        margin: auto;
         margin-top: 64px;
+        align-items: center;
     }
 
     .leave-appln-form {
