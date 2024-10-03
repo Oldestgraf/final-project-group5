@@ -83,9 +83,13 @@
 }
 
 .teachers-intro {
+    font-weight: 400;
     margin-bottom: 40px;
     max-width: 336px; 
     margin: 16px auto 0; 
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
 }
 
 .teachers-list .teachers-items {
@@ -99,12 +103,19 @@
 
 @media (min-width: 768px) {
     .section-title {    
-        line-height: 40px;
-        letter-spacing: -0.02em;
+        line-height: 40px;        
     }
     .teachers-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 60px;
+    }
+
+    .teachers-intro {
+        font-size: 18px;
+        margin-bottom: 64px;
+        max-width: 709px; 
+        margin: 29.5px auto 0;         
+        line-height: 30px;  
     }
 
     .team-desc .description {
