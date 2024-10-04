@@ -180,7 +180,7 @@
 
 .application-btn:hover,
 .application-btn:focus {
-  background-color: #38ae5f;
+  background-color: var(--green-active);
 }
 
 @media only screen and (min-width: 768px) {
