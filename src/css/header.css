@@ -42,8 +42,8 @@
   line-height: 1.29; /* 128.571% */
 }
 
-.nav-anchor:hover:after,
-.nav-anchor:hover:focus {
+.nav-anchor::after,
+.nav-anchor::after {
   content: '';
   position: absolute;
   left: 0;
@@ -51,6 +51,12 @@
   background-color: var(--green);
   border-radius: 2px;
   height: 2px;
+  width: 0%;
+  transition: width var(--anim-main);
+}
+
+.nav-anchor:hover:after,
+.nav-anchor:focus::after {
   width: 100%;
 }
 
@@ -119,6 +125,7 @@
     border-radius: 10px;
     border: 1px solid rgba(18, 20, 23, 0.1);
     fill: var(--black);
+    transition: fill var(--anim-main);
   }
   .media-links:hover,
   .media-links:focus {

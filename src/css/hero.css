@@ -160,6 +160,10 @@
   }
 }
 
+.btn-wrapper {
+  width: 100%;
+}
+
 .application-btn {
   display: flex;
   align-items: center;
@@ -173,6 +177,7 @@
 
   min-height: 52px;
   width: 100%;
+
   border-radius: 12px;
   border: none;
   transition: background-color var(--anim-main);
@@ -180,7 +185,7 @@
 
 .application-btn:hover,
 .application-btn:focus {
-  background-color: #38ae5f;
+  background-color: var(--green-active);
 }
 
 @media only screen and (min-width: 768px) {
