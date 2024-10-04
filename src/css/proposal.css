@@ -84,8 +84,6 @@
 .proposal-item-icon {
   fill: var(--green);
   stroke: var(--white);
-  width: 10px;
-  height: 10px;
 }
 
 .proposal-item-text {
@@ -93,6 +91,10 @@
   font-size: 14px;
   line-height: 1.43;
   letter-spacing: -0.02em;
+}
+
+.btn-link {
+  display: block;
 }
 
 .image-wrapper {
@@ -136,11 +138,6 @@
     margin-bottom: 32px;
   }
 
-  .proposal-item-icon {
-    width: 28px;
-    height: 28px;
-  }
-
   .proposal-item-text {
     font-size: 20px;
     line-height: 1.2;
@@ -157,11 +154,6 @@
   .icon-wrapper {
     width: 28px;
     height: 28px;
-  }
-
-  .proposal-item-icon {
-    width: 16px;
-    height: 16px;
   }
 }
 
