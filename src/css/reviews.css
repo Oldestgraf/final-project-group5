@@ -1,6 +1,6 @@
 .testimonial-section {
     text-align: center;
-
+    padding: 100px 0;
 }
 
 .testimonial-title {
@@ -182,6 +182,10 @@
 
     .testimonial-text {
         font-size: 16px;
+    }
+
+    .testimonial-section {
+        padding: 100px 62px;
     }
 
     .testimonial-title {
