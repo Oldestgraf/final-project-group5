@@ -90,13 +90,13 @@
 
 .our-lessons-list-item:nth-child(2n) .our-lessons-list-item-button {
   border: 1px solid rgba(255, 255, 255, 0.4);
-  transition: background var(--anim-main), color var(--anim-main);
+  transition: background-color var(--anim-main), color var(--anim-main);
 }
 
 .our-lessons-list-item:nth-child(2n) .our-lessons-list-item-button:hover,
 .our-lessons-list-item:nth-child(2n) .our-lessons-list-item-button:focus {
   color: var(--green);
-  background: var(--white);
+  background-color: var(--white);
 }
 
 @media (min-width: 768px) {
