@@ -160,6 +160,10 @@
   }
 }
 
+.btn-wrapper {
+  width: 100%;
+}
+
 .application-btn {
   display: flex;
   align-items: center;
@@ -173,6 +177,7 @@
 
   min-height: 52px;
   width: 100%;
+
   border-radius: 12px;
   border: none;
   transition: background-color var(--anim-main);
