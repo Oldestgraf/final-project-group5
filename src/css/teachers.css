@@ -85,7 +85,8 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    text-align: center;
+    text-align: justify center;
+    padding: 0px;
 }
 
 .teachers-intro {
@@ -117,6 +118,7 @@
     gap: 32px;
     max-width: 576px;
     margin: 0 auto;
+    padding-top: 64px;
     }
 
     .teachers-intro {
@@ -127,10 +129,14 @@
     margin: 29.5px auto 0;         
     line-height: 30px; 
     }
+    .teachers-items {
+    padding: 0%;
+    text-align: justify center;
+    }
 
     .team-desc .description {
-    max-width: 250px;
     font-size: 16px;
+    padding: 0%;
     }
     .container {
     padding-left: 64px;
@@ -146,6 +152,7 @@
     max-width: 1024px;
     display: grid; 
     gap: 32px; 
+    padding: 0px;
     
     }
 
@@ -156,7 +163,7 @@
     }
 
     .team-desc .description {
-    max-width: 232px;  
+    max-width: 272px;  
     margin-bottom: 8px; 
     }
     .section-title {
