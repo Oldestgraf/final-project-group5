@@ -1,3 +1,8 @@
+@media only screen and (min-width: 1280px) {
+  .hero-container {
+    margin-bottom: 96px;
+  }
+}
 .hero-content {
   padding: 425px 20px 72px;
   color: var(--white);

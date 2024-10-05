@@ -1,6 +1,3 @@
-.our-lessons {
-  padding-bottom: 80px;
-}
 .our-lessons-container {
   text-align: center;
 }
@@ -100,10 +97,6 @@
 }
 
 @media (min-width: 768px) {
-  .our-lessons {
-    padding-bottom: 100px;
-  }
-
   .our-lessons-list {
     gap: 32px;
     row-gap: 32px;
@@ -159,7 +152,7 @@
   }
 
   .our-lessons.container {
-    padding: 0 128px 150px 128px;
+    padding: 0 128px;
   }
 
   .our-lessons-list-item-price {
