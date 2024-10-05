@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
 
   --black: #121417;
+  --black-transparent: rgba(18, 20, 23, 0.5); /* 50% Black transparent */
   --green: #4dc274;
   --green-linear: linear-gradient(85deg, #4dc274 2.25%, #bee8cc 131.25%);
   --light-green: #d4fde1;
