@@ -215,23 +215,19 @@
   }
 }
 
-.scroll-btn {
+.hero-link {
   position: absolute;
   cursor: pointer;
   bottom: 14px;
   right: 14px;
   width: 38px;
   height: 38px;
-  background-color: var(--white);
-  border-radius: 50%;
-  transition: background-color var(--anim-main);
-}
-.hero-link {
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--white);
+  border-radius: 50%;
+  transition: background-color var(--anim-main);
 }
 
 .icon-scroll {
@@ -241,7 +237,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .scroll-btn {
+  .hero-link {
     bottom: 32px;
     right: 32px;
 
@@ -253,12 +249,12 @@
     height: 24px;
   }
 }
-.scroll-btn:hover,
-.scroll-btn:focus {
+.hero-link:hover,
+.hero-link:focus {
   background-color: var(--green);
 }
 
-.scroll-btn:hover .icon-scroll,
-.scroll-btn:focus .icon-scroll {
+.hero-link:hover .icon-scroll,
+.hero-link:focus .icon-scroll {
   fill: var(--white);
 }
