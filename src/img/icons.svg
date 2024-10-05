@@ -19,5 +19,8 @@
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-width="3" d="M6.37 8.38H30.5M6.37 22.32H30.5M14.02 15.35H30.5"/>
     </symbol>
+    <symbol id="icon-check" viewBox="0 0 32 32">
+      <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.2" d="M26.667 8l-14.667 14.667-6.667-6.667"></path>
+    </symbol>
   </defs>
 </svg>
