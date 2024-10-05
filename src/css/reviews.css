@@ -1,5 +1,6 @@
 .testimonial-section {
   text-align: center;
+  padding-bottom: 80px;
 }
 .testimonial-title {
   text-align: center;
@@ -160,6 +161,10 @@
   .highlight-students {
     height: 20px;
   }
+
+  .testimonial-section {
+    padding-bottom: 100px;
+  }
 }
 
 @media only screen and (min-width: 1280px) {
@@ -177,5 +182,6 @@
   .testimonial-section {
     padding-left: 128px;
     padding-right: 128px;
+    padding-bottom: 150px;
   }
 }

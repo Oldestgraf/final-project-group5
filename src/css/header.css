@@ -4,20 +4,12 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-bottom: 8px;
-}
-
-@media (min-width: 768px) {
-  .header-container {
-    margin-bottom: 32px;
-  }
 }
 
 @media (min-width: 1280px) {
   .header-container {
     padding-left: 128px;
     padding-right: 128px;
-    margin-bottom: 16px;
   }
 }
 
@@ -65,7 +57,7 @@
 
 .nav-anchor:hover:after,
 .nav-anchor:focus::after {
-  width: 100%;
+  width: 37px;
 }
 
 .logo {

@@ -137,10 +137,6 @@
 }
 
 @media (min-width: 1280px) {
-  .our-lessons {
-    padding-bottom: 150px;
-  }
-
   .our-lessons-list {
     gap: 32px;
     row-gap: 32px;

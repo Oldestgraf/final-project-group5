@@ -1,6 +1,17 @@
+.hero-section {
+  padding-top: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 32px;
+  }
+}
+
 @media only screen and (min-width: 1280px) {
-  .hero-container {
-    margin-bottom: 96px;
+  .hero-section {
+    padding-top: 16px;
+    padding-bottom: 21px;
   }
 }
 .hero-content {
