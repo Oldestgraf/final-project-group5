@@ -1,140 +1,136 @@
-<section id="leave-application" class="container">
-  <div>
-    <h2>Leave an <span class="highlight">application</span></h2>
-    <p class="leave-appl-description">
-      Please use the form below to contact us. Enter your name, email, and
-      message and we'll get back to you shortly.
-    </p>
-  </div>
-
-  <div class="leave-application-section">
-    <div class="leave-application-info">
-      <picture>
-        <source
-          media="(min-width: 1280px)"
-          srcset="../img/form-app/girl.webp 1x, ../img/form-app/girl@2x.webp 2x"
-          type="image/webp"
-        />
-        <source
-          media="(min-width: 1280px)"
-          srcset="../img/form-app/girl.png 1x, ../img/form-app/girl@2x.png 2x"
-          type="image/png"
-        />
-        <img
-          srcset="../img/form-app/girl.png 1x, ../img/form-app/girl@2x.png 2x"
-          src="../img/form-app/girl.png"
-          alt="girl learning with laptop"
-          width="492"
-          loading="lazy"
-        />
-      </picture>
-      <div class="leave-application-info-details">
-        <p class="leave-application-info-number">1000</p>
-        <p class="leave-application-info-text">
-          of our online English language lessons! This journey has been full of
-          discovery, growth and unforgettable moments, and we are happy to share
-          this joyful event with you.
-        </p>
-      </div>
+<section class="section" id="leave-application">
+  <div class="container">
+    <div>
+      <h2>Leave an <span class="highlight">application</span></h2>
+      <p class="leave-appl-description">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
     </div>
-
-    <div class="leave-appln-form">
-      <form id="submit-form">
-        <div class="leave-appln-form-inputs">
-          <input
-            class="leave-appln-form-input"
-            type="text"
-            id="name"
-            name="name"
-            pattern="[a-zA-Z\s]{2,}"
-            placeholder="Name"
-            title="Name should have at least 2 letters"
-            required
+    <div class="leave-application-section">
+      <div class="leave-application-info">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/form-app/girl.webp 1x, ./img/form-app/girl@2x.webp 2x"
+            type="image/webp"
           />
-          <input
-            class="leave-appln-form-input"
-            type="email"
-            id="email"
-            name="email"
-            pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-            placeholder="Email"
-            title="Format: exmpl@exmpl.com"
-            required
+          <source
+            media="(min-width: 1280px)"
+            srcset="./img/form-app/girl.png 1x, ./img/form-app/girl@2x.png 2x"
+            type="image/png"
           />
-          <input
-            class="leave-appln-form-input"
-            type="tel"
-            id="phone"
-            name="phone"
-            pattern="[0-9]{9,12}"
-            placeholder="Phone"
-            title="Format: 123456789"
-            required
+          <img
+            srcset="./img/form-app/girl.png 1x, ./img/form-app/girl@2x.png 2x"
+            src="./img/form-app/girl.png"
+            alt="girl learning with laptop"
+            width="492"
+            loading="lazy"
           />
-          <textarea
-            class="leave-appln-form-input"
-            id="comment"
-            name="comment"
-            placeholder="Comment"
-          ></textarea>
+        </picture>
+        <div class="leave-application-info-details">
+          <p class="leave-application-info-number">1000</p>
+          <p class="leave-application-info-text">
+            of our online English language lessons! This journey has been full
+            of discovery, growth and unforgettable moments, and we are happy to
+            share this joyful event with you.
+          </p>
         </div>
-        <div>
-          <label class="select-teacher-lbl" for="teacher"
-            >Choose a teacher</label
-          >
-          <div class="teacher-options">
-            <div>
-              <input
-                id="teacher1"
-                class="teacher-input-radio"
-                type="radio"
-                name="teacher"
-                value="Maria"
-                checked
-              />
-              <label class="teacher-label" for="teacher1">Maria</label>
-            </div>
-            <div>
-              <input
-                id="teacher2"
-                class="teacher-input-radio"
-                type="radio"
-                name="teacher"
-                value="Artem"
-              />
-              <label class="teacher-label" for="teacher2">Artem</label>
-            </div>
-            <div>
-              <input
-                id="teacher3"
-                class="teacher-input-radio"
-                type="radio"
-                name="teacher"
-                value="Ilona"
-              />
-              <label class="teacher-label" for="teacher3">Ilona</label>
-            </div>
-            <div>
-              <input
-                id="teacher4"
-                class="teacher-input-radio"
-                type="radio"
-                name="teacher"
-                value="Volodymyr"
-              />
-              <label class="teacher-label" for="teacher4">Volodymyr</label>
+      </div>
+      <div class="leave-appln-form">
+        <form id="submit-form">
+          <div class="leave-appln-form-inputs">
+            <input
+              class="leave-appln-form-input"
+              type="text"
+              id="name"
+              name="name"
+              pattern="[a-zA-Z\s]{2,}"
+              placeholder="Name"
+              title="Name should have at least 2 letters"
+              required
+            />
+            <input
+              class="leave-appln-form-input"
+              type="email"
+              id="email"
+              name="email"
+              pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+              placeholder="Email"
+              title="Format: exmpl@exmpl.com"
+              required
+            />
+            <input
+              class="leave-appln-form-input"
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{9,12}"
+              placeholder="Phone"
+              title="Format: 123456789"
+              required
+            />
+            <textarea
+              class="leave-appln-form-input"
+              id="comment"
+              name="comment"
+              placeholder="Comment"
+            ></textarea>
+          </div>
+          <div>
+            <label class="select-teacher-lbl">Choose a teacher</label>
+            <div class="teacher-options">
+              <div>
+                <input
+                  id="teacher1"
+                  class="teacher-input-radio"
+                  type="radio"
+                  name="teacher"
+                  value="Maria"
+                  checked
+                />
+                <label class="teacher-label" for="teacher1">Maria</label>
+              </div>
+              <div>
+                <input
+                  id="teacher2"
+                  class="teacher-input-radio"
+                  type="radio"
+                  name="teacher"
+                  value="Artem"
+                />
+                <label class="teacher-label" for="teacher2">Artem</label>
+              </div>
+              <div>
+                <input
+                  id="teacher3"
+                  class="teacher-input-radio"
+                  type="radio"
+                  name="teacher"
+                  value="Ilona"
+                />
+                <label class="teacher-label" for="teacher3">Ilona</label>
+              </div>
+              <div>
+                <input
+                  id="teacher4"
+                  class="teacher-input-radio"
+                  type="radio"
+                  name="teacher"
+                  value="Volodymyr"
+                />
+                <label class="teacher-label" for="teacher4">Volodymyr</label>
+              </div>
             </div>
           </div>
-        </div>
-
-        <button class="leave-appl-submit-btn" type="submit">Send</button>
-
-        <div class="privacy-text">
-          By clicking on “Send” button, you agree to our
-          <a href="#">Privacy Policy</a>, and allow Promodo to use this
-          information for marketing purposes.
-        </div>
-      </form>
+          <button class="leave-appl-submit-btn" type="submit">Send</button>
+          <div class="privacy-text">
+            By clicking on “Send” button, you agree to our
+            <a href="#">Privacy Policy</a>, and allow Promodo to use this
+            information for marketing purposes.
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
