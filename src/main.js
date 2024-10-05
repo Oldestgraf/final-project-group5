@@ -1,16 +1,7 @@
-// let btnClose = document.querySelector('.close-btn');
-// let modalWindow = document.querySelector('.backdrop');
-// let btnOpenModal = document.querySelector('.solutions-button');
 let btnSandwich = document.querySelector('.menu-btn');
 let menu = document.querySelector('.mobile-menu-backdrop');
 let btnCloseMenu = document.querySelector('.close-btn-menu');
-
-// btnClose.addEventListener('click', () => {
-//   modalWindow.classList.remove('is-open');
-// });
-// btnOpenModal.addEventListener('click', () => {
-//   modalWindow.classList.add('is-open');
-// });
+let anchorCloseMenuItems = document.querySelectorAll('.anchor-item');
 
 btnSandwich.addEventListener('click', () => {
   menu.classList.add('is-open');
@@ -18,3 +9,16 @@ btnSandwich.addEventListener('click', () => {
 btnCloseMenu.addEventListener('click', () => {
   menu.classList.remove('is-open');
 });
+anchorCloseMenuItems.forEach(anchorItem => {
+  anchorItem.addEventListener('click', () => {
+    menu.classList.remove('is-open');
+  });
+});
+
+// const form = document.getElementById('submit-form');
+
+// // Add an event listener for the form submit event
+// form.addEventListener('submit', function (event) {
+//   event.preventDefault(); // Prevent the default form submission
+//   alert('Form submission prevented!'); // Alert message for testing
+// });

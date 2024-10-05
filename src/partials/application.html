@@ -39,14 +39,16 @@
     </div>
 
     <div class="leave-appln-form">
-      <form>
+      <form id="submit-form">
         <div class="leave-appln-form-inputs">
           <input
             class="leave-appln-form-input"
             type="text"
             id="name"
             name="name"
+            pattern="[a-zA-Z\s]{2,}"
             placeholder="Name"
+            title="Name should have at least 2 letters"
             required
           />
           <input
@@ -56,6 +58,7 @@
             name="email"
             pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
             placeholder="Email"
+            title="Format: exmpl@exmpl.com"
             required
           />
           <input
@@ -63,8 +66,9 @@
             type="tel"
             id="phone"
             name="phone"
-            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            pattern="[0-9]{9,12}"
             placeholder="Phone"
+            title="Format: 123456789"
             required
           />
           <textarea
