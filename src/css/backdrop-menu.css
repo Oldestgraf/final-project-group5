@@ -16,6 +16,10 @@
   pointer-events: auto;
 }
 
+body:has(.mobile-menu-backdrop.is-open) {
+  overflow: hidden;
+}
+
 .mobile-menu {
   background-color: var(--green);
   height: 100%;
